@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'UbuntuSelfAgent'
+  image: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
